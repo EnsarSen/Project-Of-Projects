@@ -8,6 +8,6 @@ export const Counter = () => {
       <button onClick={() => {setCounter(counter + 1)}} >Increase</button>
       <button onClick={() => {setCounter(0)}}>Zero</button>
       <button onClick={() => {setCounter(counter - 1)}}>Decrease</button>
-      <button onClick={() => Navigate("/")}>Go Back To Home</button>
+      <button onClick={() => Navigate("/")}>Return Home</button>
    </div>
 };
