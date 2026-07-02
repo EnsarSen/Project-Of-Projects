@@ -14,6 +14,9 @@ export const Home = () => {
       <div>
         <button onClick={() => Navigate("/logIn")}>Log In </button>
       </div>
+       <div>
+        <button onClick={() => Navigate("/diceRoller")}>Dice Roller </button>
+      </div>
     </div>
   );
 };

@@ -3,7 +3,9 @@ import { Home } from "./Home";
 import { Counter } from "./Counter";
 import { List } from "./todoList";
 import { CatFact } from "./catFact";
-import {LogIn} from "./logIn";
+import { LogIn } from "./logIn";
+import { DiceRoller } from "./diceRoller";
+
 export const Nav = () => {
   return (
     <Routes>
@@ -13,6 +15,7 @@ export const Nav = () => {
       <Route path="/todoList" element={<List />} />
       <Route path="/catFacts" element={<CatFact />} />
       <Route path="/logIn" element={<LogIn />} />
+      <Route path="/diceRoller" element={<DiceRoller />} />
     </Routes>
   );
 };
